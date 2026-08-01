@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40">
+  <defs>
+    <linearGradient id="gw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AA5F"/>
+      <stop offset="100%" stop-color="#C9A84C"/>
+    </linearGradient>
+  </defs>
+  <!-- HS monogram -->
+  <text x="22" y="29" font-family="Georgia,'Times New Roman',serif" font-size="27" font-weight="700" font-style="italic" text-anchor="middle" fill="url(#gw)" letter-spacing="-1">HS</text>
+  <!-- Vertical divider -->
+  <line x1="42" y1="8" x2="42" y2="34" stroke="rgba(201,168,76,0.4)" stroke-width="0.8"/>
+  <!-- HUGO SOUZA -->
+  <text x="52" y="20" font-family="Georgia,'Times New Roman',serif" font-size="10.5" font-weight="700" fill="#ffffff" letter-spacing="2.5">HUGO SOUZA</text>
+  <!-- ADVOCACIA -->
+  <text x="52" y="33" font-family="Georgia,'Times New Roman',serif" font-size="8" font-weight="400" fill="rgba(201,168,76,0.8)" letter-spacing="3.5">ADVOCACIA</text>
+</svg>

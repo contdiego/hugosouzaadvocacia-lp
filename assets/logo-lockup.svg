@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 110" width="280" height="110">
+  <defs>
+    <linearGradient id="goldV" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AA5F"/>
+      <stop offset="55%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#9B7A1C"/>
+    </linearGradient>
+    <linearGradient id="goldH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9B7A1C" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C9A84C"/>
+      <stop offset="100%" stop-color="#9B7A1C" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- HS Monogram large -->
+  <text x="140" y="68" font-family="Georgia,'Times New Roman',serif" font-size="72" font-weight="700" font-style="italic" text-anchor="middle" fill="url(#goldV)" letter-spacing="-3">HS</text>
+  <!-- Separator line -->
+  <line x1="50" y1="82" x2="230" y2="82" stroke="url(#goldH)" stroke-width="0.8"/>
+  <!-- HUGO SOUZA -->
+  <text x="140" y="97" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700" text-anchor="middle" fill="#1A2744" letter-spacing="5">HUGO SOUZA</text>
+  <!-- thin line -->
+  <line x1="90" y1="103" x2="190" y2="103" stroke="url(#goldH)" stroke-width="0.5" opacity="0.6"/>
+  <!-- ADVOCACIA -->
+  <text x="140" y="114" font-family="Georgia,'Times New Roman',serif" font-size="9.5" font-weight="400" text-anchor="middle" fill="#C9A84C" letter-spacing="6">ADVOCACIA</text>
+</svg>
