@@ -1,16 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" width="220" height="56">
-  <defs>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#D4AA5F"/>
-      <stop offset="60%" stop-color="#C9A84C"/>
-      <stop offset="100%" stop-color="#9B7A1C"/>
-    </linearGradient>
-  </defs>
-  <!-- HS monogram box -->
-  <rect x="2" y="2" width="52" height="52" rx="4" fill="none" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
-  <text x="28" y="39" font-family="Georgia,'Times New Roman',serif" font-size="34" font-weight="700" font-style="italic" text-anchor="middle" fill="url(#g1)" letter-spacing="-1">HS</text>
-  <!-- Right side text -->
-  <text x="70" y="23" font-family="Georgia,'Times New Roman',serif" font-size="13.5" font-weight="700" fill="#1A2744" letter-spacing="3.5">HUGO SOUZA</text>
-  <line x1="70" y1="31" x2="218" y2="31" stroke="#C9A84C" stroke-width="0.6" opacity="0.5"/>
-  <text x="70" y="44" font-family="Georgia,'Times New Roman',serif" font-size="9" font-weight="400" fill="#C9A84C" letter-spacing="5">ADVOCACIA</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48" width="64" height="48">
+  <text x="32" y="36" font-family="Georgia,'Times New Roman',serif" font-size="38" font-weight="700" font-style="italic" text-anchor="middle" fill="#B69464" letter-spacing="-2">HS</text>
 </svg>
