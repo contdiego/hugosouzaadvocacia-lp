@@ -25,7 +25,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .header-content, .footer-content { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--navy); font-size: 0.9rem; font-weight: 700; letter-spacing: 0.08em; text-decoration: none; }
 .brand strong { color: var(--gold-dark); }
-.brand-mark { display: grid; place-items: center; width: 34px; height: 34px; color: var(--gold); background: var(--navy); border-radius: 50%; font-size: 0.95rem; }
+.brand-logo { display: block; width: auto; height: 34px; object-fit: contain; filter: drop-shadow(0 1px 2px rgba(18,48,74,.15)); }
 .header-whatsapp { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 0.9rem; font-weight: 600; text-decoration: none; }
 .header-whatsapp:hover, .site-footer a:hover { color: var(--gold-dark); }
 
@@ -56,13 +56,12 @@ h1 em { color: var(--gold-dark); font-style: italic; }
 .cta-note i { color: var(--gold-dark); }
 
 .hero-visual { position: relative; min-height: 450px; display: grid; place-items: center; }
-.founder-frame { position: relative; z-index: 2; width: min(100%, 390px); aspect-ratio: 1; overflow: hidden; border: 10px solid rgba(255,255,255,.9); border-radius: 50%; background: var(--navy); box-shadow: 0 20px 52px rgba(18,48,74,.24); }
-.founder-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center; transform: scale(1.08); }
-.emblem-frame { display: grid; place-items: center; background: radial-gradient(circle at 50% 30%, #1d4a70, var(--navy) 65%); }
-.emblem { display: grid; place-items: center; gap: 6px; color: var(--gold); text-align: center; }
-.emblem i { font-size: 4.6rem; filter: drop-shadow(0 8px 18px rgba(0,0,0,.35)); }
-.emblem strong { margin-top: 8px; color: var(--white); font-family: "Playfair Display", Georgia, serif; font-size: 1.35rem; letter-spacing: .04em; }
-.emblem small { color: rgba(255,255,255,.75); font-size: .72rem; font-weight: 700; letter-spacing: .32em; text-transform: uppercase; }
+.founder-frame { position: relative; z-index: 2; width: min(100%, 390px); aspect-ratio: 1; margin: 0; overflow: hidden; border: 10px solid rgba(255,255,255,.9); border-radius: 50%; background: var(--navy); box-shadow: 0 20px 52px rgba(18,48,74,.24); }
+.founder-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 22%; transform: scale(1.08); }
+.founder-caption { position: absolute; z-index: 3; left: 50%; bottom: 14px; translate: -50% 0; padding: 8px 18px; text-align: center; color: var(--navy); background: rgba(255,255,255,.92); border: 1px solid rgba(18,48,74,.06); border-radius: 100px; box-shadow: 0 10px 24px rgba(18,48,74,.18); backdrop-filter: blur(6px); }
+.founder-caption strong, .founder-caption small { display: block; }
+.founder-caption strong { font-family: "Playfair Display", Georgia, serif; font-size: .98rem; letter-spacing: .02em; }
+.founder-caption small { margin-top: 1px; color: var(--muted); font-size: .68rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
 .visual-orbit { position: absolute; border-radius: 50%; }
 .orbit-one { z-index: 0; width: 400px; height: 400px; border: 1px dashed rgba(185,147,74,.6); animation: rotate 28s linear infinite; }
 .orbit-two { z-index: 1; width: 445px; height: 445px; border: 24px solid rgba(185,147,74,.14); }
@@ -116,8 +115,8 @@ h2 { margin-bottom: 16px; color: var(--navy); font-family: "Playfair Display", G
     .hero { padding-top: 58px; }.hero-grid, .process-layout, .support-card, .faq-layout { grid-template-columns: 1fr; gap: 48px; }.hero-copy { max-width: 720px; }.hero-visual { min-height: 400px; grid-row: 1; }.founder-frame { width: 330px; }.orbit-one { width: 350px; height: 350px; }.orbit-two { width: 390px; height: 390px; }.human-card { right: max(0px, calc(50% - 225px)); bottom: 20px; }.process-intro { position: static; max-width: 660px; }.support-card, .faq-layout { gap: 34px; }.support-card { padding: 45px; }.offer-grid { gap: 14px; }
 }
 @media (max-width: 640px) {
-    body { padding-bottom: 77px; }.container { width: min(100% - 36px, 1120px); }.site-header { padding: 16px 0; }.header-whatsapp span { display: none; }.header-whatsapp { width: 32px; height: 32px; justify-content: center; border: 1px solid var(--line); border-radius: 50%; }.brand { font-size: .72rem; letter-spacing: .05em; }.brand-mark { width: 30px; height: 30px; font-size: .82rem; }
-    .hero { padding: 46px 0 58px; }.hero-grid { gap: 38px; }.eyebrow { margin-bottom: 13px; font-size: .66rem; letter-spacing: .08em; }.hero h1 { font-size: clamp(2.38rem, 12vw, 3.15rem); }.hero-description { font-size: 1rem; }.hero-actions, .final-actions { display: grid; grid-template-columns: 1fr; }.main-cta, .hero-actions .button, .final-cta .button { width: 100%; padding: 16px; }.main-cta .button-arrow { display: none; }.cta-note { align-items: flex-start; font-size: .72rem; line-height: 1.45; }.hero-visual { min-height: 325px; }.founder-frame { width: 270px; border-width: 7px; }.emblem i { font-size: 3.4rem; }.emblem strong { font-size: 1.1rem; }.orbit-one { width: 290px; height: 290px; }.orbit-two { width: 320px; height: 320px; border-width: 18px; }.human-card { right: 3px; bottom: 3px; padding: 10px 11px; }.human-card-icon { width: 32px; height: 32px; }.human-card strong { font-size: .74rem; }.human-card small { font-size: .65rem; }
+    body { padding-bottom: 77px; }.container { width: min(100% - 36px, 1120px); }.site-header { padding: 16px 0; }.header-whatsapp span { display: none; }.header-whatsapp { width: 32px; height: 32px; justify-content: center; border: 1px solid var(--line); border-radius: 50%; }.brand { font-size: .72rem; letter-spacing: .05em; }.brand-logo { height: 30px; }
+    .hero { padding: 46px 0 58px; }.hero-grid { gap: 38px; }.eyebrow { margin-bottom: 13px; font-size: .66rem; letter-spacing: .08em; }.hero h1 { font-size: clamp(2.38rem, 12vw, 3.15rem); }.hero-description { font-size: 1rem; }.hero-actions, .final-actions { display: grid; grid-template-columns: 1fr; }.main-cta, .hero-actions .button, .final-cta .button { width: 100%; padding: 16px; }.main-cta .button-arrow { display: none; }.cta-note { align-items: flex-start; font-size: .72rem; line-height: 1.45; }.hero-visual { min-height: 325px; }.founder-frame { width: 270px; border-width: 7px; }.founder-caption { bottom: 10px; padding: 6px 14px; }.founder-caption strong { font-size: .86rem; }.founder-caption small { font-size: .6rem; }.orbit-one { width: 290px; height: 290px; }.orbit-two { width: 320px; height: 320px; border-width: 18px; }.human-card { right: 3px; bottom: 3px; padding: 10px 11px; }.human-card-icon { width: 32px; height: 32px; }.human-card strong { font-size: .74rem; }.human-card small { font-size: .65rem; }
     .practice-areas, .how-it-works, .support-section, .faq-section, .final-cta { padding: 68px 0; }.section-heading { margin-bottom: 30px; }.offer-grid { grid-template-columns: 1fr; }.offer-card { padding: 24px; }.process-layout { gap: 32px; }.steps-list li { gap: 15px; }.support-card { padding: 32px 25px; border-radius: 14px; }.support-list { gap: 12px; }.support-list li { align-items: flex-start; font-size: .91rem; }.faq-layout { gap: 30px; }.faq-list summary { padding: 18px 0; font-size: .94rem; }.faq-list details p { margin-right: 0; }.site-footer { padding: 20px 0; }.footer-content { align-items: flex-start; flex-direction: column; gap: 5px; }
     .mobile-cta { position: fixed; right: 0; bottom: 0; left: 0; z-index: 10; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 10px 18px 14px; background: rgba(255,255,255,.94); border-top: 1px solid var(--line); backdrop-filter: blur(10px); }.mobile-cta .button { width: 100%; padding: 14px 8px; font-size: .82rem; }
 }
