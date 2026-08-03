@@ -129,7 +129,7 @@ h2 { margin-bottom: 16px; color: var(--navy); font-family: "Cormorant Garamond",
 
 /* ---------- Final CTA ---------- */
 .final-cta { padding: 94px 0 70px; text-align: center; background: var(--cream); }.final-cta-content { max-width: 720px; }.final-cta .section-kicker { justify-content: center; }.final-cta h2 { margin-inline: auto; }.final-cta p:not(.section-kicker) { max-width: 540px; margin: 0 auto 28px; color: var(--muted); }.final-actions { justify-content: center; }
-.final-cta-logo { display: block; width: 172px; height: auto; margin: 0 auto 26px; opacity: .9; }
+.final-brand { position: relative; width: 172px; height: 80px; margin: 0 auto 26px; }.final-cta-logo { display: block; width: 172px; height: auto; opacity: .9; }.final-cta-monogram { position: absolute; z-index: 1; top: 6px; left: 50%; width: 50px; height: auto; transform: translateX(-50%); }
 
 /* ---------- Footer ---------- */
 .site-footer { padding: 24px 0; color: #9fb0c0; background: var(--navy-deep); font-size: .82rem; }.site-footer p { margin: 0; }.site-footer a { color: var(--white); text-decoration: none; }.footer-logo { display: block; height: 24px; width: auto; opacity: .95; }
@@ -152,7 +152,7 @@ h2 { margin-bottom: 16px; color: var(--navy); font-family: "Cormorant Garamond",
     .trust-bar { padding: 18px 0; }
     .trust-list { grid-template-columns: 1fr; gap: 16px; }
     .trust-item { font-size: 0.8rem; justify-content: flex-start; text-align: left; max-width: 280px; margin: 0 auto; width: 100%; }
-    .practice-areas, .how-it-works, .support-section, .faq-section, .final-cta { padding: 68px 0; }.section-heading { margin-bottom: 30px; }.offer-grid { grid-template-columns: 1fr; }.offer-card { padding: 24px; }.process-layout { gap: 32px; }.steps-list li { gap: 15px; }.support-card { padding: 32px 25px; border-radius: 14px; }.support-list { gap: 12px; }.support-list li { align-items: flex-start; font-size: .91rem; }.faq-layout { gap: 30px; }.faq-list summary { padding: 18px 0; font-size: .94rem; }.faq-list details p { margin-right: 0; }.final-cta-logo { width: 150px; }.site-footer { padding: 20px 0; }.footer-content { align-items: flex-start; flex-direction: column; gap: 5px; }
+    .practice-areas, .how-it-works, .support-section, .faq-section, .final-cta { padding: 68px 0; }.section-heading { margin-bottom: 30px; }.offer-grid { grid-template-columns: 1fr; }.offer-card { padding: 24px; }.process-layout { gap: 32px; }.steps-list li { gap: 15px; }.support-card { padding: 32px 25px; border-radius: 14px; }.support-list { gap: 12px; }.support-list li { align-items: flex-start; font-size: .91rem; }.faq-layout { gap: 30px; }.faq-list summary { padding: 18px 0; font-size: .94rem; }.final-brand { width: 150px; height: 70px; }.final-cta-logo { width: 150px; }.final-cta-monogram { top: 5px; width: 44px; }.site-footer { padding: 20px 0; }.footer-content { align-items: flex-start; flex-direction: column; gap: 5px; }
     .mobile-cta { position: fixed; right: 0; bottom: 0; left: 0; z-index: 10; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 10px 18px 14px; background: rgba(255,255,255,.94); border-top: 1px solid var(--line); backdrop-filter: blur(10px); }.mobile-cta .button { width: 100%; padding: 14px 8px; font-size: .82rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; }.reveal { opacity: 1; transform: none; transition: none; }.visual-orbit { animation: none; }.button { transition: none; } }
