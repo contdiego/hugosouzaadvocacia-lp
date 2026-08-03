@@ -6,7 +6,7 @@
       <stop offset="100%" stop-color="#B69464" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <text x="140" y="56" font-family="Georgia,'Times New Roman',serif" font-size="52" font-weight="700" font-style="italic" text-anchor="middle" fill="#B69464" letter-spacing="-3">HS</text>
+  <text x="140" y="56" font-family="'Times New Roman',Times,serif" font-size="52" font-weight="700" text-anchor="middle" fill="#B69464" letter-spacing="1.6">HS</text>
   <line x1="80" y1="72" x2="200" y2="72" stroke="url(#lineGrad)" stroke-width="0.6"/>
   <text x="140" y="92" font-family="Georgia,'Times New Roman',serif" font-size="13" font-weight="700" text-anchor="middle" fill="#0E1116" letter-spacing="4.5">HUGO SOUZA</text>
   <line x1="100" y1="100" x2="180" y2="100" stroke="url(#lineGrad)" stroke-width="0.4" opacity="0.6"/>
